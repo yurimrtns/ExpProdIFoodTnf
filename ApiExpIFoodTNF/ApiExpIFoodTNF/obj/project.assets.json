@@ -4233,11 +4233,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF.csproj",
+      "projectUniqueName": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF.csproj",
       "projectName": "ApiExpIFoodTNF",
-      "projectPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF.csproj",
+      "projectPath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF.csproj",
       "packagesPath": "C:\\Users\\yuri.martins\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\obj\\",
+      "outputPath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yuri.martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4255,14 +4255,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj": {
-              "projectPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj"
+            "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj": {
+              "projectPath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj"
             },
-            "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj": {
-              "projectPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj"
+            "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj": {
+              "projectPath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj"
             },
-            "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\SqlServer\\SqlServer.csproj": {
-              "projectPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\SqlServer\\SqlServer.csproj"
+            "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\SqlServer\\SqlServer.csproj": {
+              "projectPath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\SqlServer\\SqlServer.csproj"
             }
           }
         }

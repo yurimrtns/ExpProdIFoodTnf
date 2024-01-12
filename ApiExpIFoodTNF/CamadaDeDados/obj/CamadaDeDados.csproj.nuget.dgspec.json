@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj": {}
+    "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj": {}
   },
   "projects": {
-    "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj": {
+    "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj",
+        "projectUniqueName": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj",
         "projectName": "CamadaDeDados",
-        "projectPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj",
+        "projectPath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj",
         "packagesPath": "C:\\Users\\yuri.martins\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeDados\\obj\\",
+        "outputPath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeDados\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yuri.martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj": {
-                "projectPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj"
+              "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj": {
+                "projectPath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj"
               }
             }
           }
@@ -102,14 +102,14 @@
         }
       }
     },
-    "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj": {
+    "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj",
+        "projectUniqueName": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj",
         "projectName": "CamadaDeNegócios",
-        "projectPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj",
+        "projectPath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj",
         "packagesPath": "C:\\Users\\yuri.martins\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\obj\\",
+        "outputPath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeNegócios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yuri.martins\\AppData\\Roaming\\NuGet\\NuGet.Config",

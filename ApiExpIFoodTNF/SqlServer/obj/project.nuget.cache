@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aAawexOeH7MTcrM9GKKU3VIapMiG0qkUT5Uq3zd5UByBFpS3Zx/2kzUzW20K/fsyLf37w/TphhVweiUKybA4lg==",
+  "dgSpecHash": "xLAb6lSQcslSbDk8sKCPbKg7h63j4J0zf47i3NWZ7YoPLy3cRSnyiliisq7h9xBIKZcdj5XbBTlZNQyrA1N0Wg==",
   "success": true,
-  "projectFilePath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\SqlServer\\SqlServer.csproj",
+  "projectFilePath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\SqlServer\\SqlServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yuri.martins\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

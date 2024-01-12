@@ -3,7 +3,6 @@ using Microsoft.OpenApi.Models;
 using SqlServer;
 using CamadaDeNegócios.Profiles;
 using ApiExpIFoodTNF.Notifications;
-using CamadaDeNegócios.Entities;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using CamadaDeNegócios.Dtos;

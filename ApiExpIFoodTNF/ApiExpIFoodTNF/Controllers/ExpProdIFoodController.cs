@@ -2,60 +2,59 @@
 using CamadaDeNegócios.Entities;
 using CamadaDeNegócios.Repository;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-namespace ApiExpIFoodTNF.Controllers
+namespace ApiExpIFoodTNF.Controllers;
+[ApiController]
+[Route("[Controller]")]
+public class ExpProdIFoodController : TnfController
 {
-    public class ExpProdIFoodController : TnfController
+    private readonly IExpProdFoodRepository _repo;
+
+    public ExpProdIFoodController(IExpProdFoodRepository repo)
     {
-        private readonly IExpProdFoodRepository _repo;
+        _repo = repo;
+    }
 
-        public ExpProdIFoodController(IExpProdFoodRepository repo)
-        {
-            _repo = repo;
-        }
+    [HttpPost]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status201Created)]
+    public async Task<IActionResult> PostProduto([FromBody] ExpProdIFoodDto expProdIFoodDto)
+    {
+        var mapProd = expProdIFoodDto.MapTo<ExpProdIFood>();
 
-        [HttpPost]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        public async Task<IActionResult> PostProduto([FromBody] ExpProdIFoodDto expProdIFoodDto)
-        {
-            var mapProd = expProdIFoodDto.MapTo<ExpProdIFood>();
+        var Prod = await _repo.InsertAsync(mapProd);
 
-            var Prod = await _repo.InsertAsync(mapProd);
+        return CreateResponseOnPost(Prod);
+    }
 
-            return CreateResponseOnPost(Prod);
-        }
+    [HttpGet]
+    public async Task<IActionResult> GetProdutos([FromQuery] ExpProdIFoodDto expProdIFoodDto)
+    {
+        if (expProdIFoodDto == null) return NotFound();
 
-        [HttpGet]
-        public async Task<IActionResult> GetProdutos([FromQuery] ExpProdIFoodDto expProdIFoodDto)
-        {
-            if (expProdIFoodDto == null) return NotFound();
+        var prod = await _repo.GetAllAsync(expProdIFoodDto);
 
-            var prod = await _repo.GetAllAsync(expProdIFoodDto);
+        return CreateResponseOnGetAll(prod);
+    }
 
-            return CreateResponseOnGetAll(prod);
-        }
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetProdutoPorId(int id)
+    {
+        var prod = await _repo.GetAsync(id);
+        if(prod == null) return NotFound();
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetProdutoPorId(int id)
-        {
-            var prod = await _repo.GetAsync(id);
-            if(prod == null) return NotFound();
+        return CreateResponseOnGet(prod);
+    }
+    [HttpPut]
+    public async Task<IActionResult> UpdateProduto([FromBody] ExpProdIFoodDto atualizarExpProdIFoodDto)
+    {
+        var prodDto = await _repo.GetAsync(atualizarExpProdIFoodDto.Id);
+        if (prodDto == null) return NotFound();
 
-            return CreateResponseOnGet(prod);
-        }
-        [HttpPut]
-        public async Task<IActionResult> UpdateProduto([FromBody] ExpProdIFoodDto atualizarExpProdIFoodDto)
-        {
-            var prodDto = await _repo.GetAsync(atualizarExpProdIFoodDto.Id);
-            if (prodDto == null) return NotFound();
+        var prod = atualizarExpProdIFoodDto.MapTo<ExpProdIFood>();
+        prod = await _repo.UpdateAsync(prod);
+        var toDto = prod.MapTo<ExpProdIFoodDto>();
 
-            var prod = atualizarExpProdIFoodDto.MapTo<ExpProdIFood>();
-            prod = await _repo.UpdateAsync(prod);
-            var toDto = prod.MapTo<ExpProdIFoodDto>();
-
-            return CreateResponseOnPut(toDto);
-        }
+        return CreateResponseOnPut(toDto);
     }
 }
