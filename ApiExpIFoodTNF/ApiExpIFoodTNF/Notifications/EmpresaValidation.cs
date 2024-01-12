@@ -1,5 +1,4 @@
 ﻿using CamadaDeNegócios.Dtos;
-using CamadaDeNegócios.Entities;
 using FluentValidation;
 
 namespace ApiExpIFoodTNF.Notifications;

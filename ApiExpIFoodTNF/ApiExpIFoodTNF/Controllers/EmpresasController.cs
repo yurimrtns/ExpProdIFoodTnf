@@ -2,7 +2,6 @@
 using CamadaDeNegócios.Dtos;
 using CamadaDeNegócios.Repository;
 using CamadaDeNegócios.Entities;
-using FluentValidation;
 
 namespace ApiExpIFood.Controllers;
 

@@ -2,7 +2,6 @@
 using CamadaDeNegócios.Entities;
 using CamadaDeNegócios.Repository;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace ApiExpIFoodTNF.Controllers
 {

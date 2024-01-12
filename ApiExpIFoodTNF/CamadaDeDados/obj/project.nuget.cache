@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sOf9EAzj7PeqVQm74z9vdLEU0qPznAKizGBCuIS3t1cltN7B1hbNtHSGwijkClqKJIR+wNeouHIUhpsSwqiaKg==",
+  "dgSpecHash": "kEf5zqw89TnE/b0OlC0qV/M2oa+lYI8EgiPpm/5en68+facHUy0rOKvSmkzq1lJZfPJJCsYXlQjjc/OKrSLBbQ==",
   "success": true,
-  "projectFilePath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj",
+  "projectFilePath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\CamadaDeDados\\CamadaDeDados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yuri.martins\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

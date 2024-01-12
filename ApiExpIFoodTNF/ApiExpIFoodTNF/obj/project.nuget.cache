@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HjfbpszdkJwnMpbBuxjwv6+D4udYq0DR+/bLH9KapfC0absf9gbL9XKg+BxZZDKbxTJqsZPz2o+btuccsJEKiw==",
+  "dgSpecHash": "hGVjtC7n7w66Iv+t1toSVnO4uTljJWEH5lEinDTlMP+6xK3eENlxZifuv+o5/PZMf8S2sVPwquVONda4usDRPQ==",
   "success": true,
-  "projectFilePath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF.csproj",
+  "projectFilePath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yuri.martins\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
