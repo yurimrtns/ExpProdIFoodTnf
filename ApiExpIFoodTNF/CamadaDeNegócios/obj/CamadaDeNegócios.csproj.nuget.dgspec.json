@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj": {}
+  },
+  "projects": {
+    "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj",
+        "projectName": "CamadaDeNegócios",
+        "projectPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\CamadaDeNegócios.csproj",
+        "packagesPath": "C:\\Users\\yuri.martins\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingCopy\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\CamadaDeNegócios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yuri.martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/tnfdev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            },
+            "Tnf.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.0.31201, )"
+            },
+            "Tnf.AutoMapper": {
+              "target": "Package",
+              "version": "[6.0.0.31201, )"
+            },
+            "Tnf.Dto": {
+              "target": "Package",
+              "version": "[6.0.0.31201, )"
+            },
+            "Tnf.Repositories": {
+              "target": "Package",
+              "version": "[6.0.0.31201, )"
+            },
+            "Tnf.Settings.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[1.9.18013.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
