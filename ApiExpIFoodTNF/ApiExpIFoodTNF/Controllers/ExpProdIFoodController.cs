@@ -3,9 +3,10 @@ using CamadaDeNegócios.Entities;
 using CamadaDeNegócios.Repository;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ApiExpIFoodTNF.Controllers;
+namespace ApiExpIFood.Controllers;
+
 [ApiController]
-[Route("[Controller]")]
+[Route("[controller]")]
 public class ExpProdIFoodController : TnfController
 {
     private readonly IExpProdFoodRepository _repo;
@@ -38,10 +39,10 @@ public class ExpProdIFoodController : TnfController
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetProdutoPorId(int id)
+    public async Task<IActionResult> GetProduto(int id)
     {
         var prod = await _repo.GetAsync(id);
-        if(prod == null) return NotFound();
+        if (prod == null) return NotFound();
 
         return CreateResponseOnGet(prod);
     }

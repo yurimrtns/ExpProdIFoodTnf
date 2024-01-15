@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CamadaDeDados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+465366ed59c3a376890604e251184723ea9d5c20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2f3d7f51f2db289fd17d78daa5aa8cd931af58e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CamadaDeDados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CamadaDeDados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
