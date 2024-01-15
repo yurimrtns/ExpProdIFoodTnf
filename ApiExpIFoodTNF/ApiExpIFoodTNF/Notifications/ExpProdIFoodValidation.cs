@@ -7,7 +7,9 @@ public class ExpProdIFoodValidation : AbstractValidator<ExpProdIFoodDto>
 {
     public ExpProdIFoodValidation()
     {
-        RuleFor(x => x.IdLojaIFood);
+        RuleFor(x => x.IdLojaIFood)
+            .GreaterThan(0)
+            .WithMessage("O número deve ser um inteiro maior que zero!");
 
         RuleFor(x => x.Ativo)
             .Length(1)

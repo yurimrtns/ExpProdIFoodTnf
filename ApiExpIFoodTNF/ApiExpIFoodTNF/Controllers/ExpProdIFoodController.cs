@@ -29,7 +29,7 @@ public class ExpProdIFoodController : TnfController
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetProdutos([FromQuery] ExpProdIFoodDto expProdIFoodDto)
+    public async Task<IActionResult> GetProdutos([FromQuery] ExpProdIFoodBuscaDto expProdIFoodDto)
     {
         if (expProdIFoodDto == null) return NotFound();
 

@@ -9,5 +9,6 @@ public class ExpProdIFoodProfile: Profile
     public ExpProdIFoodProfile()
     {
         CreateMap<ExpProdIFoodDto, ExpProdIFood>().ReverseMap();
+        CreateMap<ExpProdIFoodBuscaDto, ExpProdIFood>().ReverseMap();
     }
 }
