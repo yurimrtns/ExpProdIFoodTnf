@@ -1,7 +1,7 @@
 ﻿using CamadaDeNegócios.Dtos;
 using CamadaDeNegócios.Entities;
 using CamadaDeNegócios.Repository;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 using Tnf.Dto;
 using Tnf.EntityFrameworkCore;
 using Tnf.EntityFrameworkCore.Repositories;
@@ -23,8 +23,8 @@ public class ExpProdIFoodRepository : EfCoreRepositoryBase<ExpIFoodContext, ExpP
 
     public async Task<ExpProdIFoodDto> GetAsync(int id)
     {
-        var exp = await GetAll(x => x.Id == id).FirstOrDefaultAsync();
+        var empresa = await GetAll(e => e.Id == id).FirstOrDefaultAsync();
 
-        return exp.MapTo<ExpProdIFoodDto>();
+        return empresa.MapTo<ExpProdIFoodDto>();
     }
 }

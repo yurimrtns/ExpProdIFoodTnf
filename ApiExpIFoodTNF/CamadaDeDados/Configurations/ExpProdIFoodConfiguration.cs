@@ -10,8 +10,8 @@ public class ExpProdIFoodConfiguration : IEntityTypeConfiguration<ExpProdIFood>
     {
         builder.ToTable("ExpProdIFood");
         builder.HasKey(exp => exp.Id);
-        builder.Property(exp => exp.IdLojaIFood).IsRequired();
-        builder.Property(exp => exp.Ativo).IsRequired();
+        builder.Property(exp => exp.IdLojaIFood);
+        builder.Property(exp => exp.Ativo);
         builder.HasOne(exp => exp.Empresa)
             .WithMany()
             .HasForeignKey(exp => exp.IdEmpresa);

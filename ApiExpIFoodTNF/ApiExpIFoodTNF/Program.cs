@@ -21,6 +21,7 @@ builder.Services.AddTnfAutoMapper(config =>
     config.AddProfile<EmpresaProfile>();
     config.AddProfile<CategoriaProfile>();
     config.AddProfile<SegmentoProfile>();
+    config.AddProfile<ExpProdIFoodProfile>();
     });
 builder.Services.AddTransient<IValidator<EmpresaDto>, EmpresaValidation>();
 builder.Services.AddTransient<IValidator<CategoriaDto>, CategoriaValidation>();

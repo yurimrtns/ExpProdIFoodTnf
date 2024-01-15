@@ -8,9 +8,11 @@ public class ExpProdIFoodValidation : AbstractValidator<ExpProdIFoodDto>
     public ExpProdIFoodValidation()
     {
         RuleFor(x => x.IdLojaIFood)
-            .NotEmpty()
-            .WithMessage("O campo deve não pode ser vazio")
             .GreaterThan(0)
-            .WithMessage("O Id da Loja deve ser maior que zero e inteiro!");
+            .WithMessage("O número deve ser um inteiro maior que zero!");
+
+        RuleFor(x => x.Ativo)
+            .Length(1)
+            .WithMessage("O campo deve conter 1 caractere!");
     }
 }

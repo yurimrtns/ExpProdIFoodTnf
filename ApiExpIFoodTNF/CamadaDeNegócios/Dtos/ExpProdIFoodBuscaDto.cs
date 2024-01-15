@@ -3,7 +3,7 @@ using Tnf.Dto;
 
 namespace CamadaDeNegócios.Dtos;
 
-public class ExpProdIFoodDto : RequestAllDto
+public class ExpProdIFoodBuscaDto : RequestAllDto
 {
     public int Id { get; set; }
     public int IdEmpresa { get; set; }

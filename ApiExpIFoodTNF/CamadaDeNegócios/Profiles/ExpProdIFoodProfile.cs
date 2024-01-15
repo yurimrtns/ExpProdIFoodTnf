@@ -4,10 +4,11 @@ using CamadaDeNegócios.Entities;
 
 namespace CamadaDeNegócios.Profiles;
 
-internal class ExpProdIFoodProfile: Profile
+public class ExpProdIFoodProfile: Profile
 {
     public ExpProdIFoodProfile()
     {
-        CreateMap<ExpProdIFood, ExpProdIFoodDto>().ReverseMap();
+        CreateMap<ExpProdIFoodDto, ExpProdIFood>().ReverseMap();
+        CreateMap<ExpProdIFoodBuscaDto, ExpProdIFood>().ReverseMap();
     }
 }
