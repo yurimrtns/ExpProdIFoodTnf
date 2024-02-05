@@ -216,11 +216,6 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/3.1.14": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.0"
-        }
-      },
       "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.0",
@@ -283,14 +278,6 @@
         }
       },
       "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {},
-      "Microsoft.Extensions.Hosting.Abstractions/3.1.14": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
-        }
-      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -323,14 +310,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
           }
-        }
-      },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.14": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Options": "7.0.0"
         }
       },
       "Microsoft.Extensions.Primitives/7.0.0": {
@@ -944,7 +923,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.1",
           "Tnf.EntityFrameworkCore": "6.0.0.31201",
-          "Tnf.Settings.Management": "3.10.0.22203"
+          "Tnf.Settings.Management": "2.0.2.7202"
         },
         "runtime": {
           "lib/netstandard2.0/Tnf.Settings.EntityFrameworkCore.SqlServer.dll": {
@@ -953,19 +932,16 @@
           }
         }
       },
-      "Tnf.Settings.Management/3.10.0.22203": {
+      "Tnf.Settings.Management/2.0.2.7202": {
         "dependencies": {
-          "Microsoft.Extensions.Hosting.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Options": "7.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.14",
           "Tnf.Caching.Abstractions": "6.0.0.31201",
           "Tnf.Kernel": "6.0.0.31201",
           "Tnf.Repositories": "6.0.0.31201"
         },
         "runtime": {
           "lib/netstandard2.0/Tnf.Settings.Management.dll": {
-            "assemblyVersion": "3.10.0.22203",
-            "fileVersion": "3.10.0.22203"
+            "assemblyVersion": "2.0.2.7202",
+            "fileVersion": "2.0.2.7202"
           }
         }
       },
@@ -1132,13 +1108,6 @@
       "path": "microsoft.extensions.configuration.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Binder/3.1.14": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kG3V2CZnfXS7CAlTmFG6Hu38QvkdCMh5IlcOA29nGSjB8pXH8yurDe3hPajdYSPw3OXEMRJmWfAb+qZtWzLvyw==",
-      "path": "microsoft.extensions.configuration.binder/3.1.14",
-      "hashPath": "microsoft.extensions.configuration.binder.3.1.14.nupkg.sha512"
-    },
     "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1195,13 +1164,6 @@
       "path": "microsoft.extensions.filesystemglobbing/6.0.0",
       "hashPath": "microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Hosting.Abstractions/3.1.14": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-uGolA+XDa2SRxeJiRU6hhW9Od0OFhjAI+/MFpJvgK4gvPX+RzM4dVndf6M3mvxsz2nmnkRVc0bPnNnNi+V3O4A==",
-      "path": "microsoft.extensions.hosting.abstractions/3.1.14",
-      "hashPath": "microsoft.extensions.hosting.abstractions.3.1.14.nupkg.sha512"
-    },
     "Microsoft.Extensions.Logging/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1222,13 +1184,6 @@
       "sha512": "sha512-lP1yBnTTU42cKpMozuafbvNtQ7QcBjr/CcK3bYOGEMH55Fjt+iecXjT6chR7vbgCMqy3PG3aNQSZgo/EuY/9qQ==",
       "path": "microsoft.extensions.options/7.0.0",
       "hashPath": "microsoft.extensions.options.7.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.14": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OXLFHOfblMil8uK7nJ0YJV8EEn12q48fmR5uPl/cuev53nJsnxild456b4GI9xEqHKa8QA8PG4fzxat8hpjCxQ==",
-      "path": "microsoft.extensions.options.configurationextensions/3.1.14",
-      "hashPath": "microsoft.extensions.options.configurationextensions.3.1.14.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/7.0.0": {
       "type": "package",
@@ -1552,12 +1507,12 @@
       "path": "tnf.settings.entityframeworkcore.sqlserver/1.9.18013.1",
       "hashPath": "tnf.settings.entityframeworkcore.sqlserver.1.9.18013.1.nupkg.sha512"
     },
-    "Tnf.Settings.Management/3.10.0.22203": {
+    "Tnf.Settings.Management/2.0.2.7202": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CVE8CDRp5EWxSLHv3b8PHOiYvvtP/SK/9gclBLwED7Lcjg9Bp5zAldLMGbQWgstfnAcXU2HTEbq+1EQBevlxXQ==",
-      "path": "tnf.settings.management/3.10.0.22203",
-      "hashPath": "tnf.settings.management.3.10.0.22203.nupkg.sha512"
+      "sha512": "sha512-v+/oOAS5PKl0dpbhuEDNES5Yc24Jcwz4H/W6p0MfaaJPwVJbs3zs1NZ6+r3cbNhJxPlgqLRoorZJvnwvqkYbjg==",
+      "path": "tnf.settings.management/2.0.2.7202",
+      "hashPath": "tnf.settings.management.2.0.2.7202.nupkg.sha512"
     },
     "Tnf.Specifications/6.0.0.31201": {
       "type": "package",

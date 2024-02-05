@@ -16,7 +16,7 @@ public class CategoriaRepository : EfCoreRepositoryBase<ExpIFoodContext, Categor
 
     public async Task<IListDto<CategoriaDto>> GetAllAsync(CategoriaDto categoriaDto)
     {
-        var query = Table.AsQueryable();
+        var query = Table.AsQueryable().AsNoTracking();
 
         return await query.ToListDtoAsync<Categoria, CategoriaDto>(categoriaDto);
     }

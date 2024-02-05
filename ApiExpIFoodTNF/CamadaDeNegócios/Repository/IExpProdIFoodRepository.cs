@@ -7,6 +7,9 @@ namespace CamadaDeNegócios.Repository;
 public interface IExpProdFoodRepository : IRepository<ExpProdIFood>
 {
     Task<ExpProdIFoodDto> GetAsync(int id);
-    Task<IListDto<ExpProdIFoodDto>> GetAllAsync(ExpProdIFoodDto expProdIFoodDto);
+    Task<IListDto<ExpProdIFoodDto>> BuscaTodos(ExpProdIFoodBuscaDto expProdIFoodDto);
+    Task<ExpProdIFoodDto> GetProdutoPorId(int id);
+
+    //Task<ExpProdIFoodDto> Atualizar(ExpProdIFoodDto expProdIFoodDto);
 
 }

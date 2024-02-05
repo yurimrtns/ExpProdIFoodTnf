@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LKa2mFjn7D2FnokiIGXS/U5mNmpHlX8gGJXRjlFtkIAWGEWe8Q2y6ET3NRSfvdO65l4Na/nZj9AuF96t8bwdHg==",
+  "dgSpecHash": "rOkVGQcCg9NJN1SkfgiVCCiEh2tET09x1h3H4kQfVLOlfFagHROnNmDdBQjxfHeFbFEDcqjG7j4TJSTaCSPprQ==",
   "success": true,
   "projectFilePath": "C:\\WorkingCopy\\ExpProdIFoodTnf\\ApiExpIFoodTNF\\ApiExpIFoodTNF\\ApiExpIFoodTNF.csproj",
   "expectedPackageFiles": [
@@ -27,7 +27,6 @@
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.14\\microsoft.extensions.configuration.binder.3.1.14.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\6.0.0\\microsoft.extensions.configuration.fileextensions.6.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.configuration.json\\6.0.0\\microsoft.extensions.configuration.json.6.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
@@ -36,11 +35,9 @@
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
-    "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.14\\microsoft.extensions.hosting.abstractions.3.1.14.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.14\\microsoft.extensions.options.configurationextensions.3.1.14.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
@@ -94,7 +91,7 @@
     "C:\\Users\\yuri.martins\\.nuget\\packages\\tnf.repositories\\6.0.0.31201\\tnf.repositories.6.0.0.31201.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\tnf.runtime\\6.0.0.31201\\tnf.runtime.6.0.0.31201.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\tnf.settings.entityframeworkcore.sqlserver\\1.9.18013.1\\tnf.settings.entityframeworkcore.sqlserver.1.9.18013.1.nupkg.sha512",
-    "C:\\Users\\yuri.martins\\.nuget\\packages\\tnf.settings.management\\3.10.0.22203\\tnf.settings.management.3.10.0.22203.nupkg.sha512",
+    "C:\\Users\\yuri.martins\\.nuget\\packages\\tnf.settings.management\\2.0.2.7202\\tnf.settings.management.2.0.2.7202.nupkg.sha512",
     "C:\\Users\\yuri.martins\\.nuget\\packages\\tnf.specifications\\6.0.0.31201\\tnf.specifications.6.0.0.31201.nupkg.sha512"
   ],
   "logs": [
@@ -102,7 +99,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Tnf.Settings.EntityFrameworkCore.SqlServer 1.9.18013.1 depende de Tnf.Settings.Management (>= 1.9.18013.1), mas Tnf.Settings.Management 1.9.18013.1 não foi encontrado. A melhor correspondência aproximada de Tnf.Settings.Management 3.10.0.22203 foi resolvida.",
+      "message": "Tnf.Settings.EntityFrameworkCore.SqlServer 1.9.18013.1 depende de Tnf.Settings.Management (>= 1.9.18013.1), mas Tnf.Settings.Management 1.9.18013.1 não foi encontrado. A melhor correspondência aproximada de Tnf.Settings.Management 2.0.2.7202 foi resolvida.",
       "libraryId": "Tnf.Settings.Management",
       "targetGraphs": [
         "net6.0"

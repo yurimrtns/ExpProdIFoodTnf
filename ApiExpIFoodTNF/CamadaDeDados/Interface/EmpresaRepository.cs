@@ -18,6 +18,7 @@ public class EmpresaRepository : EfCoreRepositoryBase<ExpIFoodContext, Empresa>,
 
     public async Task<EmpresaDto> GetAsync(int id)
     {
+        Console.WriteLine(this.Context.Database.GenerateCreateScript());
         var empresa = await GetAll(e => e.Id == id).FirstOrDefaultAsync();
 
         return empresa.MapTo<EmpresaDto>();
@@ -25,7 +26,7 @@ public class EmpresaRepository : EfCoreRepositoryBase<ExpIFoodContext, Empresa>,
 
     public async Task<IListDto<EmpresaDto>> GetAllAsync(EmpresaDto empresaDto)
     {
-        var query = Table.AsQueryable();
+        var query = Table.AsQueryable().AsNoTracking();
 
         return await query.ToListDtoAsync<Empresa, EmpresaDto>(empresaDto);
     }

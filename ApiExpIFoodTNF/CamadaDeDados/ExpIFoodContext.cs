@@ -1,6 +1,7 @@
 ﻿using CamadaDeDados.Configurations;
 using CamadaDeNegócios.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Tnf.EntityFrameworkCore;
 using Tnf.Runtime.Session;
 
@@ -8,6 +9,7 @@ namespace CamadaDeDados;
 
 public class ExpIFoodContext : TnfDbContext
 {
+    
     public ExpIFoodContext(DbContextOptions<ExpIFoodContext> options, ITnfSession session) : base(options, session)
     {
     }
@@ -24,5 +26,7 @@ public class ExpIFoodContext : TnfDbContext
         modelBuilder.ApplyConfiguration(new CategoriasConfiguration());
         modelBuilder.ApplyConfiguration(new SegmentosConfiguration());
         modelBuilder.ApplyConfiguration(new ExpProdIFoodConfiguration());
+
+        
     }
 }

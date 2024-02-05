@@ -12,14 +12,17 @@ public class ExpProdIFoodConfiguration : IEntityTypeConfiguration<ExpProdIFood>
         builder.HasKey(exp => exp.Id);
         builder.Property(exp => exp.IdLojaIFood);
         builder.Property(exp => exp.Ativo);
-        builder.HasOne(exp => exp.Empresa)
+
+        builder.HasOne(e => e.Empresa)
             .WithMany()
-            .HasForeignKey(exp => exp.IdEmpresa);
-        builder.HasOne(exp => exp.Categoria)
+            .HasForeignKey(fk => fk.IdEmpresa);
+        
+        builder.HasOne(e => e.Categoria)
             .WithMany()
-            .HasForeignKey(exp => exp.IdCategoria);
-        builder.HasOne(exp => exp.Segmento)
+            .HasForeignKey(fk => fk.IdCategoria);
+        
+        builder.HasOne(e => e.Segmento)
             .WithMany()
-            .HasForeignKey(exp => exp.IdSegmento);
+            .HasForeignKey(fk => fk.IdSegmento);
     }
 }

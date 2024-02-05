@@ -11,6 +11,7 @@ public class EmpresasConfiguration : IEntityTypeConfiguration<Empresa>
     {
         builder.ToTable("Empresas");
         builder.HasKey(e  => e.Id);
+        //builder.Property(e => e.IdEmpresa).HasColumnName("id").IsRequired();
         builder.Property(e => e.Nome).HasColumnType("VARCHAR(40)").IsRequired();
 
     }

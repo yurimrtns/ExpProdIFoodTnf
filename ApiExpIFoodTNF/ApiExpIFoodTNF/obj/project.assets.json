@@ -388,22 +388,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/3.1.14": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.14"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -555,25 +539,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Hosting.Abstractions/3.1.14": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14",
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.14"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -630,25 +595,6 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.14": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Configuration.Binder": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Options": "3.1.14"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Microsoft.Extensions.Primitives/7.0.0": {
@@ -1642,24 +1588,21 @@
           "lib/netstandard2.0/Tnf.Settings.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Tnf.Settings.Management/3.10.0.22203": {
+      "Tnf.Settings.Management/2.0.2.7202": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Hosting.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Options": "3.1.14",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.14",
-          "Tnf.Caching.Abstractions": "3.10.0.22203",
-          "Tnf.Kernel": "3.10.0.22203",
-          "Tnf.Repositories": "3.10.0.22203"
+          "Tnf.Caching.Abstractions": "2.0.2.7202",
+          "Tnf.Kernel": "2.0.2.7202",
+          "Tnf.Repositories": "2.0.2.7202"
         },
         "compile": {
           "lib/netstandard2.0/Tnf.Settings.Management.dll": {
-            "related": ".xml"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Tnf.Settings.Management.dll": {
-            "related": ".xml"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -2456,22 +2399,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration.Binder/3.1.14": {
-      "sha512": "kG3V2CZnfXS7CAlTmFG6Hu38QvkdCMh5IlcOA29nGSjB8pXH8yurDe3hPajdYSPw3OXEMRJmWfAb+qZtWzLvyw==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration.binder/3.1.14",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
-        "microsoft.extensions.configuration.binder.3.1.14.nupkg.sha512",
-        "microsoft.extensions.configuration.binder.nuspec"
-      ]
-    },
     "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
       "sha512": "V4Dth2cYMZpw3HhGw9XUDIijpI6gN+22LDt0AhufIgOppCUfpWX4483OmN+dFXRJkJLc8Tv0Q8QK+1ingT2+KQ==",
       "type": "package",
@@ -2667,22 +2594,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Hosting.Abstractions/3.1.14": {
-      "sha512": "uGolA+XDa2SRxeJiRU6hhW9Od0OFhjAI+/MFpJvgK4gvPX+RzM4dVndf6M3mvxsz2nmnkRVc0bPnNnNi+V3O4A==",
-      "type": "package",
-      "path": "microsoft.extensions.hosting.abstractions/3.1.14",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "microsoft.extensions.hosting.abstractions.3.1.14.nupkg.sha512",
-        "microsoft.extensions.hosting.abstractions.nuspec"
-      ]
-    },
     "Microsoft.Extensions.Logging/7.0.0": {
       "sha512": "Nw2muoNrOG5U5qa2ZekXwudUn2BJcD41e65zwmDHb1fQegTX66UokLWZkJRpqSSHXDOWZ5V0iqhbxOEky91atA==",
       "type": "package",
@@ -2809,22 +2720,6 @@
         "microsoft.extensions.options.7.0.0.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
-      ]
-    },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.14": {
-      "sha512": "OXLFHOfblMil8uK7nJ0YJV8EEn12q48fmR5uPl/cuev53nJsnxild456b4GI9xEqHKa8QA8PG4fzxat8hpjCxQ==",
-      "type": "package",
-      "path": "microsoft.extensions.options.configurationextensions/3.1.14",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
-        "microsoft.extensions.options.configurationextensions.3.1.14.nupkg.sha512",
-        "microsoft.extensions.options.configurationextensions.nuspec"
       ]
     },
     "Microsoft.Extensions.Primitives/7.0.0": {
@@ -4169,15 +4064,16 @@
         "tnf.settings.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Tnf.Settings.Management/3.10.0.22203": {
-      "sha512": "CVE8CDRp5EWxSLHv3b8PHOiYvvtP/SK/9gclBLwED7Lcjg9Bp5zAldLMGbQWgstfnAcXU2HTEbq+1EQBevlxXQ==",
+    "Tnf.Settings.Management/2.0.2.7202": {
+      "sha512": "v+/oOAS5PKl0dpbhuEDNES5Yc24Jcwz4H/W6p0MfaaJPwVJbs3zs1NZ6+r3cbNhJxPlgqLRoorZJvnwvqkYbjg==",
       "type": "package",
-      "path": "tnf.settings.management/3.10.0.22203",
+      "path": "tnf.settings.management/2.0.2.7202",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Tnf.Settings.Management.dll",
+        "lib/netstandard2.0/Tnf.Settings.Management.pdb",
         "lib/netstandard2.0/Tnf.Settings.Management.xml",
-        "tnf.settings.management.3.10.0.22203.nupkg.sha512",
+        "tnf.settings.management.2.0.2.7202.nupkg.sha512",
         "tnf.settings.management.nuspec"
       ]
     },
@@ -4250,6 +4146,8 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.telerik.com/v3/index.json": {},
+        "https://totvstfs.pkgs.visualstudio.com/Varejo-Supermercados/_packaging/torre-varejo-supermercados-consinco-nuget/nuget/v3/index.json": {},
+        "https://totvstfs.pkgs.visualstudio.com/tnf/_packaging/tnf/nuget/v3/index.json": {},
         "https://www.myget.org/F/tnfdev/api/v3/index.json": {}
       },
       "frameworks": {
@@ -4351,7 +4249,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Tnf.Settings.EntityFrameworkCore.SqlServer 1.9.18013.1 depende de Tnf.Settings.Management (>= 1.9.18013.1), mas Tnf.Settings.Management 1.9.18013.1 não foi encontrado. A melhor correspondência aproximada de Tnf.Settings.Management 3.10.0.22203 foi resolvida.",
+      "message": "Tnf.Settings.EntityFrameworkCore.SqlServer 1.9.18013.1 depende de Tnf.Settings.Management (>= 1.9.18013.1), mas Tnf.Settings.Management 1.9.18013.1 não foi encontrado. A melhor correspondência aproximada de Tnf.Settings.Management 2.0.2.7202 foi resolvida.",
       "libraryId": "Tnf.Settings.Management",
       "targetGraphs": [
         "net6.0"

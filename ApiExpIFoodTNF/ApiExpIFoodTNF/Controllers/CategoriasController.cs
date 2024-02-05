@@ -1,4 +1,5 @@
-﻿using CamadaDeNegócios.Dtos;
+﻿using CamadaDeDados;
+using CamadaDeNegócios.Dtos;
 using CamadaDeNegócios.Entities;
 using CamadaDeNegócios.Repository;
 using Microsoft.AspNetCore.Mvc;
@@ -22,6 +23,7 @@ public class CategoriasController : TnfController
     [ProducesResponseType(StatusCodes.Status201Created)]
     public async Task<IActionResult> Post([FromBody] CategoriaDto categoriaDto)
     {
+        
         var mapCategoria = categoriaDto.MapTo<Categoria>();
 
         var c = await _repo.InsertAsync(mapCategoria);

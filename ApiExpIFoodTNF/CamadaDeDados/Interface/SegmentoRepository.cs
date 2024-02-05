@@ -16,7 +16,7 @@ public class SegmentoRepository : EfCoreRepositoryBase<ExpIFoodContext, Segmento
 
     public async Task<IListDto<SegmentoDto>> GetAllAsync(SegmentoDto segmentoDto)
     {
-        var query = Table.AsQueryable();
+        var query = Table.AsQueryable().AsNoTracking();
 
         return await query.ToListDtoAsync<Segmento, SegmentoDto>(segmentoDto);
     }

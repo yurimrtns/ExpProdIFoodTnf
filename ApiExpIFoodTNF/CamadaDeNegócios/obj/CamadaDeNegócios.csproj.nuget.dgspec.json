@@ -24,6 +24,8 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.telerik.com/v3/index.json": {},
+          "https://totvstfs.pkgs.visualstudio.com/Varejo-Supermercados/_packaging/torre-varejo-supermercados-consinco-nuget/nuget/v3/index.json": {},
+          "https://totvstfs.pkgs.visualstudio.com/tnf/_packaging/tnf/nuget/v3/index.json": {},
           "https://www.myget.org/F/tnfdev/api/v3/index.json": {}
         },
         "frameworks": {

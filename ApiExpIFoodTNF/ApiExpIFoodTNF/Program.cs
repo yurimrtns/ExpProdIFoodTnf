@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddCors();
 builder.Services.AddControllers().AddFluentValidation();
 builder.Services.AddTnfAspNetCore(tnf => tnf.DefaultConnectionString(builder.Configuration.GetConnectionString("Sqlite")));
 
@@ -51,6 +52,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseCors(op => op.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 app.MapControllers();
 
 app.Run();

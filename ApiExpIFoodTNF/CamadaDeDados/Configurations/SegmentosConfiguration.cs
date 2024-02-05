@@ -11,6 +11,7 @@ public class SegmentosConfiguration : IEntityTypeConfiguration<Segmento>
     {
         builder.ToTable("Segmentos");
         builder.HasKey(e => e.Id);
+        //builder.Property(e => e.IdSegmento).HasColumnName("id").IsRequired();
         builder.Property(e => e.Nome).HasColumnType("VARCHAR(40)").IsRequired();
 
     }

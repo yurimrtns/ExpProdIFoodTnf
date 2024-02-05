@@ -24,6 +24,7 @@ public class ExpProdIFoodController : TnfController
         var mapProd = expProdIFoodDto.MapTo<ExpProdIFood>();
 
         var Prod = await _repo.InsertAsync(mapProd);
+        var produto = _repo.GetProdutoPorId(mapProd.Id).MapTo<ExpProdIFood>;
 
         return CreateResponseOnPost(Prod);
     }
@@ -33,7 +34,7 @@ public class ExpProdIFoodController : TnfController
     {
         if (expProdIFoodDto == null) return NotFound();
 
-        var prod = await _repo.GetAllAsync(expProdIFoodDto);
+        var prod = await _repo.BuscaTodos(expProdIFoodDto);
 
         return CreateResponseOnGetAll(prod);
     }
@@ -52,10 +53,23 @@ public class ExpProdIFoodController : TnfController
         var prodDto = await _repo.GetAsync(atualizarExpProdIFoodDto.Id);
         if (prodDto == null) return NotFound();
 
+        
+
         var prod = atualizarExpProdIFoodDto.MapTo<ExpProdIFood>();
+        
+
+        //if (atualizarExpProdIFoodDto.Empresa.Count() > 0)
+        //{
+
+        //}
         prod = await _repo.UpdateAsync(prod);
-        var toDto = prod.MapTo<ExpProdIFoodDto>();
+        var prodfk = await _repo.GetAsync(prod.Id);
+        var toDto = prodfk.MapTo<ExpProdIFoodDto>();
 
         return CreateResponseOnPut(toDto);
+
+
+
+        //return CreateResponseOnPutAsAsync(await _repo.Atualizar(atualizarExpProdIFoodDto));
     }
 }

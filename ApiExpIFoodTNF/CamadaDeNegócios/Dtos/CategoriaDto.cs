@@ -1,4 +1,5 @@
-﻿using Tnf.Dto;
+﻿using CamadaDeNegócios.Entities;
+using Tnf.Dto;
 
 namespace CamadaDeNegócios.Dtos;
 
